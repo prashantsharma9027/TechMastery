@@ -1,0 +1,12 @@
+npm init -y //install package file
+npm i express //install express
+npm i nodemon // install nodemon which monitors project directory and automatically restarts your node application when it detects any changes.
+npm i dotenv  //to access data from env file 
+npm i mongoose //to interact with mongo database
+npm i cookie // to deal with cookies for authentication and authorization
+npm i jsonwebtoken //  securely transfer information over the web 
+npm i nodemailer // to send emails 
+npm i otp-generator // to send otp 
+npm i bcrypt // to hash the password
+npm install email-validator //email verification 
+npm install cloudinary // for cloud
