@@ -7,9 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
-
 import "../../App.css"
-
 // Icons
 import { FaStar } from "react-icons/fa"
 // Import required modules
@@ -41,7 +39,7 @@ function ReviewSlider() {
     <div className="text-white">
       <div className="my-[50px] h-[184px] max-w-maxContentTab lg:max-w-maxContent">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={3}
           spaceBetween={25}
           loop={true}
           freeMode={true}
