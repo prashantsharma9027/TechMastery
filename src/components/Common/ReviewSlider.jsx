@@ -13,7 +13,7 @@ import { FaStar } from "react-icons/fa"
 // Import required modules
 import { Autoplay, FreeMode, Pagination } from "swiper"
 
-// Get apiFunction and the endpoint
+// Get apiFunction and the endpointt
 import { apiConnector } from "../../services/apiConnector"
 import { ratingsEndpoints } from "../../services/apis"
 
