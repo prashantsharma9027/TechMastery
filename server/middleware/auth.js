@@ -34,6 +34,7 @@ exports.auth = async (req, res, next) => {
 
 		// If JWT is valid, move on to the next middleware or request handler
 		next();
+		
 	} catch (error) {
 		// If there is an error during the authentication process, return 401 Unauthorized response
 		return res.status(401).json({

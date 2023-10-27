@@ -10,7 +10,7 @@ const {
   COURSE_PAYMENT_API,
   COURSE_VERIFY_API,
   SEND_PAYMENT_SUCCESS_EMAIL_API,
-} = studentEndpoints
+} = studentEndpoints;
 
 // Load the Razorpay SDK from the CDN
 function loadScript(src) {
@@ -66,7 +66,7 @@ export async function BuyCourse(
 
     // Opening the Razorpay SDK
     const options = {
-      key: process.env.RAZORPAY_KEY,
+      key: 'rzp_test_A87vdmIvZ5Mv7J',
       currency: orderResponse.data.data.currency,
       amount: `${orderResponse.data.data.amount}`,
       order_id: orderResponse.data.data.id,
